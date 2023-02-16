@@ -1,0 +1,76 @@
+.collections {
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.collection-pre-card {
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140.62%;
+}
+
+.card {
+  border: 1px solid #C6D0EB;
+  box-shadow: 0px 10px 29px rgba(198, 208, 235, 0.5);
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+  transition: border 500ms ease-in, box-shadow 500ms ease-in;
+}
+.card:hover {
+  border: 2px solid #293bff;
+  box-shadow: 0px 20px 40px #C6D0EB;
+}
+
+.card-row {
+  display: flex;
+  column-gap: 40px;
+}
+
+.mockups {
+  position: relative;
+  width: 640px;
+  height: 400px;
+}
+
+.videos {
+  position: relative;
+  width: 320px;
+  height: 400px;
+  display: block;
+}
+.videos img {
+  position: absolute;
+  top: 0%;
+}
+.videos .collection-card-text {
+  position: absolute;
+  width: 240px;
+  height: 140px;
+  bottom: 20px;
+}
+
+.collection-card-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.collection-card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+.collection-card-img--mac {
+  margin-top: 0;
+}
+
+.collection-card-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  margin-top: 20px;
+}

@@ -1,0 +1,61 @@
+.collection-pre-card {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140.62%;
+  color: #205284;
+}
+
+.download-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+
+.download-card {
+  display: flex;
+  justify-content: space-between;
+  width: 303px;
+  height: 90px;
+  padding: 15px 5px 15px;
+  box-shadow: 0px 10px 29px rgba(198, 208, 235, 0.5);
+  border-radius: 20px;
+  transition: box-shadow 200ms ease-in;
+}
+.download-card:hover {
+  box-shadow: 0px 20px 40px #C6D0EB;
+}
+
+.download-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.download-card-text {
+  color: #205284;
+  font-weight: 500;
+}
+
+.download-title {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.download-text {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.download-text--size {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.img-download {
+  width: 42px;
+  height: 42px;
+  fill: #C6D0EB;
+  opacity: 0.5;
+}
+.img-download:hover {
+  opacity: 1;
+}

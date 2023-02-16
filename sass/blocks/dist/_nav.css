@@ -1,0 +1,49 @@
+.nav {
+  position: relative;
+  height: 579px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  display: flex;
+  background: url("./../../img/nav/bgnav.png") center no-repeat;
+}
+.nav ul {
+  color: white;
+  justify-content: space-between;
+  display: flex;
+}
+.nav li {
+  margin-right: 50px;
+}
+.nav li :hover {
+  color: #887efb;
+  transition-duration: 500ms;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 50px;
+}
+
+.nav_row {
+  height: 40px;
+  max-width: 800px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  background-color: #54CFF3;
+  width: 29px;
+  height: 29px;
+  border-radius: 29px;
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}

@@ -1,0 +1,86 @@
+.cta{
+justify-content: center;
+display: flex;
+align-items: center;
+margin-top: -439px;
+position: relative;
+color: #F0F3F5;
+background: url('./../../img/cta/bgimage.png') no-repeat;
+border-radius: 14px;
+background-position: center;
+}
+
+.cta-card{
+    height: 494px;
+    width: 1000px;
+    display: block;
+    padding-left: 50px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.cta-card-title{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    width: 450px;
+    height: 141px;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.card-subtitle{
+    color: #C6D0EB;
+    letter-spacing: 0.001em;
+    font-weight: 500;
+    line-height: 152.34%;
+    display: flex;
+    column-gap: 30px;
+    margin-top: 10px;    
+}
+
+.number-files{
+    font-size: 18px;
+}
+
+.file-size{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1px;
+    font-size: 12px;
+    width: 53px;
+    height: 20px;
+    &::before{
+        content: "";
+        background-image: url('./../../img/cta/icon-download.svg');
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        bottom: -1px;
+        left: -25%;
+    }
+}
+
+.card-text{
+    margin-top: 10px;
+height: 108px;
+width: 450px;
+font-size: 24px;
+line-height: 36px;
+font-weight: 400;
+}
+
+.button{
+    margin-top: 24px;
+    width: 228px;
+    background: linear-gradient(93.96deg, #8C26FF 0%, #7723FF 43.23%, #B01EFF 100%);
+box-shadow: 0px 10px 20px rgba(101, 41, 255, 0.15);
+    border-radius: 30px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    &:hover{
+        background: linear-gradient(93.96deg, #6326ff 0%, #9c23ff 43.23%, #ff1edd 100%);
+    
+    }
+}
